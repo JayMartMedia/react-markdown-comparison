@@ -1,32 +1,3 @@
-/**
-    Make sure all styles are applied to children of the #markdown-view element
-    Otherwise they will be global since this is a normal css file, not a css modules file
-*/
-
-$codeBackground: rgb(212, 211, 211);
-$codeColor: black;
-
 .markdownView {
-    blockquote {
-        border-left: 3px solid #dadde1;
-        margin: 1em 1em;
-        padding: 0em 1em;
-    }
-    code {
-        background: $codeBackground;
-        border: 1px solid grey;
-        border-radius: 5px;
-        color: $codeColor
-    }
-    img {
-        max-width: 100%;
-    }
-    pre {
-        background: $codeBackground;
-        border: 1px solid grey;
-        border-radius: 5px;
-        code {
-            border: 0;
-        }
-    }
+    
 }

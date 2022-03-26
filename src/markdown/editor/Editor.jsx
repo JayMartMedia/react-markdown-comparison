@@ -12,9 +12,8 @@ function Editor ({ setText, text }) {
       <textarea
         className={styles.textarea}
         onChange={handleChange}
-      >
-        {text}
-      </textarea>
+        value={text}
+      />
     </div>
   )
 }
