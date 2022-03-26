@@ -1,13 +1,14 @@
 import React from 'react'
+import MarkdownView from '../markdown-view'
 import styles from './Preview.module.css'
 
 function Preview ({ text }) {
   return (
     <div className={styles.container}>
       <h1 className={styles.header}>Preview</h1>
-      <div>
-        {text}
-      </div>
+      <MarkdownView
+        text={text}
+      />
     </div>
   )
 }

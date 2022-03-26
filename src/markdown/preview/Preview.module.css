@@ -1,6 +1,7 @@
 .container {
     background: #bbccdd;
     height: 100%;
+    overflow-y: scroll;
 }
 .header{
     margin: 0;

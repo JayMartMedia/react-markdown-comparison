@@ -2,9 +2,10 @@ import React, { useState } from 'react'
 import Editor from './editor/Editor'
 import Preview from './preview/Preview'
 import styles from './Markdown.module.css'
+import defaultText from './defaultText'
 
 function Markdown () {
-  const [text, setText] = useState('')
+  const [text, setText] = useState(defaultText)
   return (
     <div className={styles.container}>
       <div className={styles.editorContainer}>
