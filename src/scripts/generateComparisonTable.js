@@ -10,12 +10,14 @@ const COLUMNS = [
   'Library',
   'Stars',
   'Size',
+  'Last Commit',
   'Plugins'
 ]
 
 const BADGEN = {
   Stars: 'https://badgen.net/github/stars/{githubRelative}',
-  Size: 'https://badgen.net/packagephobia/publish/{libraryName}'
+  Size: 'https://badgen.net/packagephobia/publish/{libraryName}',
+  'Last Commit': 'https://badgen.net/github/last-commit/{githubRelative}'
 }
 
 // Add more libraries here
