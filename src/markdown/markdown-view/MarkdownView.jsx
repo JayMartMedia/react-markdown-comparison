@@ -1,11 +1,12 @@
 import React from 'react'
 import RemarkableView from './remarkable-view'
+import styles from './MarkdownView.module.scss'
 
 function MarkdownView ({ text }) {
   const selectedLibrary = 'remarkable'
 
   return (
-    <div>
+    <div className={styles.markdownView}>
       {
         {
           remarkable: <RemarkableView text={text} />
