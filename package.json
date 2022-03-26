@@ -19,7 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "standard"
+    "lint": "standard",
+    "generate-comparison-table": "node ./src/scripts/generateComparisonTable.js"
   },
   "eslintConfig": {
     "extends": [
