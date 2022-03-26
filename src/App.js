@@ -1,12 +1,8 @@
-import styles from './App.module.css'
-import Editor from './markdown/editor/Editor'
-import Preview from './markdown/preview/Preview'
+import Markdown from './markdown'
 
 function App () {
   return (
-    <div>
-      Hello, world
-    </div>
+    <Markdown />
   )
 }
 
