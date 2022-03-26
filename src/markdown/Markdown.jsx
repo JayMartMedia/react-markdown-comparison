@@ -10,6 +10,7 @@ function Markdown () {
       <div className={styles.editorContainer}>
         <Editor
           setText={setText}
+          text={text}
         />
       </div>
       <div className={styles.previewContainer}>

@@ -6,9 +6,11 @@
 }
 .editorContainer {
     flex-grow: 1;
+    width: 100%;
 }
 .previewContainer {
-    flex-grow: 1
+    flex-grow: 1;
+    width: 100%;
 }
 
 /* Breakpoint to go to desktop */
